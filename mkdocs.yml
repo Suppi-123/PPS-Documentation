@@ -1,0 +1,71 @@
+# site_name: My Docs
+site_name:  PPS-Documentation
+theme:
+  name: material
+
+nav:
+  - Introduction:
+      - Overview: index.md
+      - Getting Started: getting_started.md
+      - Key Concepts: key_concepts.md
+      - System Architecture: architecture.md
+
+  - Installation & Setup:
+      - Prerequisites: prerequisites.md
+      - Installation Guide: installation.md
+      - Configuration: configuration.md
+      - Deployment: deployment.md
+
+  - User Guide:
+      - Dashboard Overview: dashboard_overview.md
+      - Feature 1:
+          - Add New Operation:
+              - Overview: add_task_page.md
+              - Components: add_task_page_components.md
+              - Time Management: add_task_page_time_management.md
+          - Custom Inputs:
+              - Managing Custom Fields: add_task_page_custom_fields.md
+              - Validation and Error Handling: add_task_page_validation.md
+      - Feature 2:
+          - Add Quantity:
+              - Overview: add_quantity.md
+              - Fetching Data: add_quantity_data_fetch.md
+              - Form Handling: add_quantity_form_handling.md
+              - Error Handling: add_quantity_error_handling.md
+      - Troubleshooting: troubleshooting.md
+
+  - Developer Guide:
+      - API Reference:
+          - Endpoints: api_endpoints.md
+          - Authentication: api_authentication.md
+      - Component Library:
+          - AddTaskPage Component: add_task_page_component.md
+          - AddQuantity Component: add_quantity_component.md
+      - Code Examples:
+          - AddTaskPage Code: add_task_page_code_examples.md
+          - AddQuantity Code: add_quantity_code_examples.md
+      - Best Practices:
+          - React Component Best Practices: react_component_best_practices.md
+          - API Integration Best Practices: api_integration_best_practices.md
+
+  - Advanced Topics:
+      - Customization: customization.md
+      - Integration: integration.md
+      - Performance Tuning: performance_tuning.md
+      - Security: security.md
+
+  - Reference:
+      - Glossary: glossary.md
+      - FAQ: faq.md
+      - Change Log: change_log.md
+      - Support: support.md
+
+  - Appendices:
+      - Additional Resources: additional_resources.md
+      - Related Projects: related_projects.md
+      - License Information: license.md
+
+  - Search & Feedback:
+      - Search: search.md
+      - Provide Feedback: feedback.md
+      - Contact Support: contact_support.md
